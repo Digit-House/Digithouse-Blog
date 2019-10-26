@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { themeGet } from "styled-system"
-import NewsletterBG from "../../images/newsletter-bg.webp"
+import NewsletterBG from "../../images/digit_newsletter.svg"
 
 export const NewsletterWrapper = styled.div`
   margin: 0 auto;
