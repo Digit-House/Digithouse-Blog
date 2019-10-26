@@ -14,7 +14,7 @@ import HeaderWrapper, {
   SearchCloseButton,
   NavSearchFromWrapper,
 } from "./navbar.style"
-import LogoImage from "../../images/logo.png"
+import LogoImage from "../../images/white-logo.png"
 
 type NavbarProps = {
   className?: string
@@ -22,21 +22,13 @@ type NavbarProps = {
 
 const MenuItems = [
   {
-    label: "Home",
+    label: "Blog",
     url: "/",
   },
   {
     label: "About",
     url: "/about",
-  },
-  {
-    label: "Contact",
-    url: "/contact",
-  },
-  {
-    label: "404 Page",
-    url: "/404",
-  },
+  }
 ]
 
 const Navbar: React.FunctionComponent<NavbarProps> = ({
