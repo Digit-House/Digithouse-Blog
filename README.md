@@ -8,21 +8,23 @@
   Our Experience to Story
 </h1>
 
+<p align="center">
 We learn, We share from our experience
+</p>
 
 ## 🚀 Quick start
 
 1.  **Clone from git repository.**
-    Use your git cli and clone the whole project 
-    <br/>  
-    
+    Use your git cli and clone the whole project
+    <br/>
+
     ```git
     #cloning your local computer
     git clone https://github.com/Digit-House/blog.git
     ```
 
 1.  **Start Adding Article.**
-    <br/>  
+    <br/>
 
     ```sh
     cd blog/content/blog
@@ -34,12 +36,11 @@ We learn, We share from our experience
     4.Any Image contain in your article add inside of your folder
     <br/>
 
-1. **Add Preview image**
+1.  **Add Preview image**
     You need to add at least one preview image at your post folder for main image. Image Name only should be `preview.png`
     <br>
 
-    
-1. **Submitting your article**
+1.  **Submitting your article**
     ```sh
     git add .
     git commit -m 'your article name'
@@ -51,9 +52,9 @@ We learn, We share from our experience
 ```md
 ---
 title: Six of My Online Stores Failed.
-date: '2019-05-23'
-cover: './preview.png'
-tags: ['markdown', 'test', 'unity']
+date: "2019-05-23"
+cover: "./preview.png"
+tags: ["markdown", "test", "unity"]
 ---
 
 Wow! I love blogging so much already.
@@ -78,11 +79,10 @@ Proin dolor augue, accumsan id luctus ut, tristique eu ligula. Sed eu blandit to
 ```md
 ---
 title: Six of My Online Stores Failed.
-date: '2019-05-23'
-cover: './preview.png'
-tags: ['markdown', 'test', 'unity']
+date: "2019-05-23"
+cover: "./preview.png"
+tags: ["markdown", "test", "unity"]
 ---
 
 [check following link](https://raw.githubusercontent.com/Digit-House/blog/development/content/blog/markdown-test/index.md)
-
 ```
