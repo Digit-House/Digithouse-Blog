@@ -1,97 +1,88 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="http://www.digithouse.co/">
+    <img alt="digit house co.,ltd" src="http://www.digithouse.co/images/white-background-logo.png" width="260" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog starter
+  Our Experience to Story
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+We learn, We share from our experience
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
-
-    ```sh
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+1.  **Clone from git repository.**
+    Use your git cli and clone the whole project 
+    <br/>  
+    
+    ```git
+    #cloning your local computer
+    git clone https://github.com/Digit-House/blog.git
     ```
 
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+1.  **Start Adding Article.**
+    <br/>  
 
     ```sh
-    cd my-blog-starter/
-    gatsby develop
+    cd blog/content/blog
     ```
 
-1.  **Open the source code and start editing!**
+    1.Enter blog folder path and create new folder
+    2.Folder Name whatever you want `test-folder`
+    3.Add your article as `markdown` format type
+    4.Any Image contain in your article add inside of your folder
+    <br/>
 
-    Your site is now running at `http://localhost:8000`!
+1. **Add Preview image**
+    You need to add at least one preview image at your post folder for main image. Image Name only should be `preview.png`
+    <br>
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+    
+1. **Submitting your article**
+    ```sh
+    git add .
+    git commit -m 'your article name'
+    git push -u origin devlopment
+    ```
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## 🎓 Markdown Template Sample
 
-## 🧐 What's inside?
+```md
+---
+title: Six of My Online Stores Failed.
+date: '2019-05-23'
+cover: './preview.png'
+tags: ['markdown', 'test', 'unity']
+---
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Wow! I love blogging so much already.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+Did you know that "despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich."?
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra sapien nibh, sed tempor mauris suscipit ac. Duis libero nibh, porttitor at posuere at, luctus et urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce et augue vitae nisl ultrices posuere. Sed facilisis metus rutrum, commodo lorem sed, consequat sem. Morbi enim orci, molestie a rutrum cursus, pellentesque nec ligula. Etiam porttitor iaculis purus sed imperdiet. Nulla consectetur eu sem ut dapibus. Duis nec viverra nisl, quis tincidunt massa.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+Nam ut egestas dolor. Vestibulum ac dignissim sem, vel sollicitudin urna. Vivamus consequat est urna, eget feugiat orci porta fermentum. Maecenas pulvinar lacinia sapien. Fusce vitae orci tempus, congue lectus vel, luctus enim. Ut tempor felis eu ex accumsan volutpat. Vestibulum gravida vel est sed hendrerit. Curabitur finibus dignissim ipsum quis cursus. Sed eleifend non dui ac dictum. Nam dictum augue eget lorem ullamcorper, in iaculis urna dapibus. Nulla nunc ante, mattis in accumsan et, aliquet eget magna. Donec venenatis ut diam at condimentum. Mauris malesuada elit vel ante blandit scelerisque. Cras enim orci, luctus at consequat non, interdum ac ex. Donec quis venenatis eros.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+Aliquam condimentum eu tortor eget feugiat. Maecenas tincidunt ultrices arcu venenatis rutrum. Suspendisse eu lectus eu erat aliquet tempus a ac urna. Integer euismod erat elementum magna pellentesque dapibus. Praesent interdum dolor felis, et auctor purus tempus rhoncus. Suspendisse cursus enim eu lacus semper, sed dictum neque tincidunt. Praesent pellentesque, quam vel congue accumsan, massa erat pulvinar velit, interdum fermentum nunc lacus posuere massa. Donec auctor semper metus, vel tempor neque cursus eu. Nam ultrices, ex sed dapibus dignissim, quam lorem auctor dui, eget varius felis erat lacinia lacus. Fusce vestibulum nec tortor in congue. Phasellus id quam efficitur, rutrum est at, hendrerit velit. Nulla laoreet ultricies metus quis pharetra. Curabitur libero ante, suscipit sit amet ex consectetur, mollis cursus magna.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+Sed nec eros feugiat, porta sapien non, porta metus. Morbi pharetra eros non commodo aliquet. Cras at magna massa. Proin rhoncus libero arcu, vehicula pretium dui egestas nec. Nunc ornare dui et egestas sodales. Mauris imperdiet risus ut ex pharetra cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa nulla, congue vitae nulla sit amet, fringilla laoreet felis. Donec risus ante, lobortis at vulputate eu, euismod sed metus. Duis eu molestie dui. Etiam gravida augue tortor, id congue ex luctus a. Donec ultrices id nisi in vulputate.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Proin dolor augue, accumsan id luctus ut, tristique eu ligula. Sed eu blandit tortor. Maecenas semper nunc eu augue semper, ac tempus leo blandit. Suspendisse nunc erat, tincidunt at diam nec, varius varius sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec accumsan, ipsum quis aliquet dapibus, quam purus fermentum ex, vel dignissim dolor nisl vulputate neque. Suspendisse sit amet tempus ipsum, quis vehicula eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+```
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+## 🧐 Complex Markdown Format
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+```md
+---
+title: Six of My Online Stores Failed.
+date: '2019-05-23'
+cover: './preview.png'
+tags: ['markdown', 'test', 'unity']
+---
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+[check following link](https://raw.githubusercontent.com/Digit-House/blog/development/content/blog/markdown-test/index.md)
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+```
